@@ -16,7 +16,12 @@ Modular CLI tool for basic recon tasks: subdomain enumeration, port scanning, an
 
 ## 🚀 Usage
 
-```bash
+bash
 python3 auto_rec_main.py --target example.com
 python3 modules/subdomain_scan.py example.com
 python3 modules/port_scan.py example.com
+
+## 🧠 Notes
+• 	Designed for CLI use and easy integration into larger recon flows.
+• 	Add your own modules to  and import them in .
+• 	Output is minimal and actionable—ideal for scripting or chaining.
